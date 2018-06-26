@@ -11,6 +11,6 @@ spring:
       server:
         git:
           uri: https://github.com/firstcrossing/public_rep.git
-          searchPaths: spring-cloud-config-server
+          searchPaths: spring-cloud-config-server/src/main/resources
   application:
     name: config-server
